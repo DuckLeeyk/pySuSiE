@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysusie"
+version = "1.0"
+description = "Python implementation of SuSiE and SuSiE-SS"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "pySuSiE Developers" }
+]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9"
+]
+
+[project.urls]
+Homepage = "https://github.com/DuckLeeyk/pySuSiE"
+Repository = "https://github.com/DuckLeeyk/pySuSiE"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pysusie*"]
+exclude = ["tests*", "docs*"]
+

@@ -1,0 +1,9 @@
+name: pysusie
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy>=1.23
+  - scipy>=1.9
+  - pip
+
