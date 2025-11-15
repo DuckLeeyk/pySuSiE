@@ -63,7 +63,7 @@ print("Credible sets (SS):", ss.sets)
 ```
 
 ## Citation
-If you use this package in academic work, please cite:
+If you use this package in academic work, please cite the original SuSiE papers:
 
 - Wang, G., Sarkar, A., Carbonetto, P., Stephens, M. (2020). A Simple New Approach to Variable Selection in Regression, with Application to Genetic Fine Mapping. Journal of the Royal Statistical Society Series B: Statistical Methodology, 82(5), 1273–1300. https://doi.org/10.1111/rssb.12388
 - Zou, Y., Carbonetto, P., Wang, G., Stephens, M. (2022). Fine-mapping from summary data with the “Sum of Single Effects” model. PLOS Genetics, 18(7): e1010299. https://doi.org/10.1371/journal.pgen.1010299
