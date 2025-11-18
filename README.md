@@ -17,7 +17,7 @@ conda create -n pysusie python=3.10 -y
 conda activate pysusie
 
 # Clone the repository
-git clone https://github.com/your-user/pySuSiE.git
+git clone https://github.com/DuckLeeyk/pySuSiE/pySuSiE.git
 cd pySuSiE
 
 # Install via pip (editable mode for development)
